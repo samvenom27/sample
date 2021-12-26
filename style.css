@@ -1,0 +1,210 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logoff {
+  color: tomato;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  transform: translateY(-110px);
+}
+.echo_error {
+  color: tomato;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  transform: translateY(90px);
+}
+.box,
+.regbox {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+.box1,
+.regbox1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 650px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 7px 5px 5px gray;
+}
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-80px);
+  font-size: 25px;
+  font-weight: bolder;
+}
+.lbls {
+  transform: translate(-10px, -20px);
+  width: 110%;
+}
+.lbl {
+  transform: translateY(20px);
+  position: absolute;
+  color: gray;
+}
+.form {
+  width: 100%;
+  height: 35px;
+  border-style: none;
+  border-bottom: 2px solid gray;
+  outline-style: none;
+  font-size: 18px;
+  margin: 20px 0 20px 0;
+}
+
+.reg {
+  font-size: 13px;
+  transform: translateY(90px);
+}
+.foot {
+  display: inline;
+  text-decoration: none;
+}
+.foot:hover {
+  color: blue;
+}
+.button {
+  width: 100%;
+  height: 50px;
+  transform: translateY(15px);
+  border-radius: 30px;
+  font-size: 15px;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: rgb(122, 122, 146);
+}
+
+/* Registration form */
+
+.regtxt {
+  transform: translateY(-60px);
+}
+.regtxt > p {
+  font-size: 14px;
+  text-align: center;
+}
+.reginpt {
+  width: 100%;
+  height: 25px;
+  border-style: none;
+  border-bottom: 2px solid gray;
+  outline-style: none;
+  font-size: 18px;
+  margin: 5px 0 0 0;
+}
+.regbtn {
+  width: 100%;
+  height: 50px;
+  border-radius: 30px;
+  font-size: 15px;
+}
+.regbtn:hover {
+  cursor: pointer;
+  background-color: rgb(122, 122, 146);
+}
+.regfoot {
+  font-size: 13px;
+  transform: translate(25px, 40px);
+}
+.regfoot1 {
+  display: inline;
+  text-decoration: none;
+}
+.regfoot1:hover {
+  color: blue;
+}
+
+/* users index page "DASHBOARD" */
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+.dashtbl,
+.view_tbl,
+.article_tbl {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 30%;
+  text-align: center;
+}
+.dashtbl td,
+th,
+.view_tbl td,
+th,
+.article_tbl td,
+th {
+  border: 1px solid black;
+  padding: 8px;
+  background-color: white;
+}
+.dashwelcm {
+  transform: translate(250px, -70px);
+}
+.dash_btn,
+.view_btn {
+  transform: translate(-400px, 100px);
+}
+.dash_logoff_btn {
+  position: absolute;
+  transform: translate(200px, -400px);
+}
+
+/* dashboard page */
+
+
+.dash_header{
+  transform: translate(500px, -150px);
+}
+
+
+/* view page */
+
+.view_header {
+  transform: translate(300px, -150px);
+}
+
+/* post page */
+
+.post_header {
+  transform: translate(400px, -180px);
+}
+.post_dash {
+  transform: translate(-60px, 100px);
+}
+
+/* article page */
+
+
+.article_header{
+    transform: translate(300px, -150px);
+}
+.article_btn {
+  transform: translate(-320px, 100px);
+}
+
+/* edit page */
+
+.edit_header {
+  transform: translate(400px, -180px);
+}
+.edit_btn {
+  transform: translate(-190px, 100px);
+}
