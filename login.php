@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 header('Location:users\index.php');
             }
         } else {
-            // Incorrect username
+            
             echo "<div class='echo_error'><p>Incorrect username and password!</p></div>";
         }
 
